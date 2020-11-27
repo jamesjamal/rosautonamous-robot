@@ -7,21 +7,22 @@ Ros- melodic ros-controlmager Gazebo  Navigation-stack in ros slam- gmapping
 # Follow roswiki for ros  installation 
 http://wiki.ros.org/melodic/Installation/Ubuntu
 # check dependencies of the package
-rosdep check <package name>
+`rosdep check <package name>`
 # install dependencies
-rosdep install -i <package name>
+`rosdep install -i <package name>`
   
   
   # Launching a file 
   
-  roslaunch robot_description base_gazebo_control.launch
+  `roslaunch robot_description base_gazebo_control.launch`
   
-  roslaunch navigation mobile_manipulator_move_base.launch
+  `roslaunch navigation mobile_manipulator_move_base.launch`
   
-  this will launch the robot and run navigation stack in ros
+  `this will launch the robot and run navigation stack in ros`
   
-  # rosrun rviz rviz 
-  to lauch the rviz 
+  # to visualise in rviz
+  
+  use command `<rosrun rviz rviz>`
   
   Try to play with the robot and change maps and  check the script file to send way point commands
   
