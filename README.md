@@ -18,7 +18,7 @@ http://wiki.ros.org/melodic/Installation/Ubuntu
   
   `roslaunch navigation mobile_manipulator_move_base.launch`
   
-  `this will launch the robot and run navigation stack in ros`
+  `this will launch the robot and run navigation stack in ros` and don't forget to change the value of world_name argument in base_gazebo_control.launch
   
   # to visualise in rviz
   
